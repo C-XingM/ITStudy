@@ -1,0 +1,428 @@
+@media screen and (max-width: 768px) {
+    .carousel-nav ul {
+        display: none;
+    }
+
+    .index-carousel .carousel .left {
+        left: 0 !important;
+    }
+    
+    .container-model .col {
+        width: 86%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .container-model .index-webpage {
+        width: 86%;
+        margin: auto;
+    }
+    .container-model .model01 .row>div {
+        border-radius: 10px;
+        height: 0;
+        padding-bottom: 13%!important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .container-model .model02 .col-xs-2 {
+      width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-model .col-sm-5 {
+        width: 17.8%;
+        margin: 1%;
+        margin-bottom: 5px;
+        padding:0;
+    }
+    /* 轮播图缩放高度控制 */
+    .index-carousel{
+        height: 350px!important;
+    }
+    .index-carousel .carousel img{
+        height: 350px!important;
+    }
+    .index-carousel .carousel .carousel-indicators {
+        margin-left: -19% !important;
+    } 
+    .container-model .row .col-sm-3 {
+        width: 31%;
+        padding: 0;
+        margin: 1%;
+    }
+    .model04 .index-webpage{
+        margin: 15px 0 0 0;
+    }
+    .container-model .model02 .col-sm-4 {
+      width: 24.5%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+
+    .container-model .row .col-lg-4 {
+        width: 22.7%;
+    }
+
+    .container-model .row .col-lg-5 {
+        width: 17.5%;
+        padding: 0;
+    }
+}
+
+.index-carousel .carousel-nav {
+    position: absolute;
+    z-index: 99;
+}
+
+/*左侧分类菜单*/
+.index-carousel .carousel-nav .carousel-shownav {
+    background-color: rgba(92, 99, 93, 0.8);
+    width: 254px;
+    float: left;
+    border-radius: 8px 0 0 8px;
+}
+
+.carousel-shownav ul {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.carousel-shownav li {
+    font-size: 15px;
+    line-height: 55px;
+    padding: 0 35px 0 40px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.carousel-shownav li:hover {
+    background-color: #fafafa80;
+    margin-right: -40px;
+    border-right: 40px solid #fff;
+}
+
+.carousel-shownav li i {
+    font-size: 18px;
+    position: absolute;
+    left: 224px;
+    line-height: 55px;
+}
+/*左侧分类菜单--隐藏的二级菜单*/
+.carousel-rightnav {
+    width: 600px;
+    height: 350px;
+    background-color: #fff;
+    color: #000000;
+    display: none;
+    float: left;
+}
+
+.rightnav-top {
+    padding: 15px 30px;
+    /* border: 2px solid rgba(99, 141, 103, 0.8); */
+    overflow: hidden;
+    text-align: left;
+}
+
+.rightnav-top h5 {
+    font-weight: 700;
+}
+
+.rightnav-top a {
+    color: #000000;
+    line-height: 26px;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.rightnav-top a:hover {
+    color: grey;
+    font-weight: 500;
+}
+
+/*左侧分类菜单--隐藏的二级菜单-广告模块*/
+.rightnav-bottom {
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    background-color: #f1f0f0;
+    overflow: hidden;
+}
+
+.rightnav-bottom .media {
+    width: 300px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 15px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.rightnav-bottom .media:hover {
+    background-color: #c2bebe;
+    box-shadow: 2px 2px 8px rgba(255, 254, 254, 0.911);
+    border-radius: 4px;
+}
+
+.rightnav-bottom .media .media-body {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rightnav-bottom .media .media-body p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: grey;
+}
+
+.rightnav-bottom .media .media-body p * {
+    margin-right: 8px;
+}
+
+.rightnav-bottom .media .media-body p span {
+    font-size: 12px;
+}
+
+.rightnav-bottom .media .media-body strong {
+    color: red;
+}
+
+.rightnav-bottom .media img {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/*轮播图*/
+.index-carousel {
+    box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.274);
+    border-radius: 8px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.index-carousel .carousel img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.index-carousel .carousel .left {
+    left: 254px;
+}
+
+.index-carousel .carousel .right {
+    border-radius: 0 8px 8px 0;
+}
+
+.index-carousel .carousel .carousel-control:active {
+    background: rgba(255, 255, 255, 0);
+}
+
+/*课程模块*/
+.container-model:nth-child(odd) {
+    background-color: rgb(248, 250, 252);
+    box-shadow: 0 2px 8px 0 rgba(7, 17, 27, 0.158);
+}
+
+.container-model h3 {
+    font-weight: bold;
+    color: #1c1f21;
+}
+
+.container-model h3 small {
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.model02，model03 {
+    cursor: pointer;
+}
+
+/*技术资源*/
+.container-model .model01 .row>div {
+    border-radius: 10px;
+    height: 0;
+    padding-bottom: 7%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container-model .model01>div a{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+.model01 .row>div{
+    background: url(../img/web/courseindex01.png);
+}
+
+/*实战课程*/
+.model02 .row{
+    /* display: -webkit-box; */
+    /* padding-top: 10px; */
+}
+.model02 .row div {
+    padding: 1%;
+    color: #080808;
+    /* display: table-cell; */
+}
+
+.model02 .row div .img {
+    width: 100%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 55%;
+}
+
+.model02 .row div .img img {
+    position: absolute; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+}
+
+.model02 .row div .img+div {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
+.model02 .row div p {
+    margin-top: 3px;
+}
+
+.model02 .row div p:nth-of-type(1) {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    cursor: default;
+}
+
+.model02 .row div p:nth-of-type(2) {
+    font-size: 12px;
+    color: #808080;
+}
+.model02 .row div p:nth-of-type(2) .level{
+    font-size: 12px;
+    color: #fff;
+    background-color: #f83535;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.model02 .row div p:nth-of-type(2) span+span {
+    margin-left: 10px;
+}
+
+.model02 .row div p:nth-of-type(2) span:last-child {
+    float: right;
+    color: #1b1b1b;
+}
+
+.model02 .row div p:nth-of-type(2) span i {
+    /* color: #808080; */
+    font-size: 12px !important;
+    margin-right: 3px;
+}
+
+
+/*工具安装*/
+.model03 .panel {
+    margin-bottom: 0px !important;
+}
+
+.model03 .panel-heading {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.model03 .panel-heading .panel-title {
+    margin: 8px 2px 2px 2px;
+    padding-left: 6px;
+    border-left: 4px solid rgb(182, 182, 182);
+    color: rgb(71, 128, 219)
+}
+
+.model03 .panel-body {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.model03 .panel-body img {
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.model03 .panel-body a {
+    font-size: 14px;
+    padding-left: 2px;
+    white-space: nowrap;
+    line-height: 28px;
+    color: #5c5c5c;
+    display: inline-block;
+}
+/*网站推荐*/
+.model04 .index-webpage>div{
+    display:inline-block;
+    background-image: url(../img/webpage/webpage05.png);
+    background-size:100% 100%;
+    width:80px;
+    height:80px;
+    /* margin:5px; */
+    position: relative;
+}
+.model04 .index-webpage>div .shadow{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:80px;
+    z-index: 3;
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgba(70, 69, 69, 0.438);
+    display: none;
+}
+.model04 .index-webpage>div .shadow a{
+    color: #fff;
+}
+.model04 .index-webpage>div:hover .shadow{
+    display:inline-block;
+}
+/* 固定广告*/
+.fixedadvert {
+    width: 100%;
+    height: 136px;
+    position: fixed;
+    bottom: 0;
+    background: url(../img/web/Advert00.png) repeat;
+    background-position: center;
+    cursor:pointer;
+    background-size: 180% 100%;
+    z-index: 199;
+}
+
+.fixedadvert i {
+    position: absolute;
+    right: 20px;
+    bottom: 45px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: default;
+}

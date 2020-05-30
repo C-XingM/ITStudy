@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="信息与计算科学,实验报告,课程设计，试卷，PPT,HTML,CSS,PHP,DOM,JavaScript,jQuery,AJAX,MySQL,SQL">
+    <meta name="description"
+        content="作业教程提供了软件专业课程的相关学习资料, 涵盖了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等多门学科的教学PPT和实验报告。 同时本站中也提供了大量的期末试卷，通过联系，您可以更好的掌握课程。..">
+    <title>IT自学网--编程工具</title>
+    <!-- 引入 Bootstrap -->
+    <link rel="icon" type="image/x-icon" href="img/web/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tool.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="js/tool01.js"></script>
+    <script src="js/tool.js"></script>
+</head>
+
+<body>
+    <header id="head">
+    </header>
+    <section>
+        <!-- 主要内容 -->
+        <div class="container main tool-container">
+            <div class="row">
+                <!-- /*多媒体对象（Media Object） 分页*/ -->
+                <div class="col col-sm-9 tool-content">
+                    <!-- 搜索框 -->
+                    <div id="article-find">
+                        <form class="bs-example bs-example-form" role="form">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="输入搜索工具名词">
+                                <span class="input-group-addon">查找</span>
+                            </div>
+                        </form>
+                    </div>
+                    <hr>
+                    <div class="hr"></div>
+                    <!-- 分页文章显示 -->
+                    <div class="article-show">
+                        <div class="article-header">
+                            <h2 class="title-article">html中a标签锚点定位的运用</h2>
+                            <p>
+                                <!--文章类型-->
+                                <span class="type">原创</span>
+                                <span class="time">最后发布于2016-09-22 23:34:10 </span>
+                                <span class="read-count">阅读数 15398</span>
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="article-content">
+                            <pre>
+动机
+1.百度云存在限速问题
+2.我们常常需要下载百度云资源
+
+Aria2（下载利器）
+安装
+这里利用静态编译的懒人包，下载后打开直接运行地址
+
+运行与结束
+1.用start.vbs或start.bat启动
+2.用aria2c进行控制（添加下载，管理下载等）即可
+3.用stop.bat关闭
+4.建议：由于默认下载目录是解压目录下新建的Download，故推荐将文件解压到非C盘，并且在桌面添加快捷方式。
+
+pandown
+1.进入官网
+2.下载安装，即可使用(该软件已整合aria2)
+3.或利用pandown解析地址，并利用本地aria2下载
+                                
+                            </pre>
+                        </div>
+                    </div>
+                    <!-- 分页内容显示 -->
+                    <div class="tool-all">
+                        <div id="demoContent"></div>
+                        <ul class="page" id="page"></ul>
+                    </div>
+
+                </div>
+
+
+                <div class="col col-sm-3 hidden-xs tool-right">
+                    <div class="panel panel-default tool-panel">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">提示</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default tooladvert-panel">
+                        <div class="panel-body">
+                            <div id="tooladvert" class="carousel slide" data-ride="carousel" data-interval="1000">
+                                <!-- 轮播（Carousel）项目 -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="https://www.baidu.com/" target="_block">
+                                            <img src="img/web/tool-carousel.png" alt="First slide">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="https://www.baidu.com/" target="_block">
+                                            <img src="img/web/tool-carousel.png" alt="Second slide">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="https://www.baidu.com/" target="_block">
+                                            <img src="iimg/web/tool-carousel.png" alt="thrid slide">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="https://www.baidu.com/" target="_block">
+                                            <img src="img/web/tool-carousel.png" alt="Fourth slide">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tooladvert-footer">
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                            <button></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer id="foot">
+    </footer>
+</body>
+
+</html>

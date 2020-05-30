@@ -1,0 +1,34 @@
+.web-container{
+    margin-bottom: 20px;
+}
+#webTab,#webTabContent li{
+    font-size: 14px;  
+    color: #333333;          
+}
+#webTab li.active>a{
+    background-color: #eeeeee;
+}
+#webTabContent{
+    border: 1px solid #ddd;
+    border-top-color: transparent;
+    padding: 5px;  
+    background-color: #eeeeee;
+}
+#webTabContent ul{
+    padding: 0;
+}
+#webTabContent ul img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+#webTabContent ul a{
+    margin-right: 5px;
+} 
+#webTabContent .list-group-item:hover{
+    box-shadow: 1px 1px 6px rgba(172, 14, 14, 0.2);
+    border-color: rgb(212, 112, 112);
+    transition: all .2s ease-in-out;
+    background: rgb(212, 112, 112);
+    font-weight: bold;
+}

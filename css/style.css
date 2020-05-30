@@ -1,0 +1,198 @@
+
+  body {
+    background-color: #fff;
+    /* font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", Arial, sans-serif; */
+  }
+
+  .ul,li{
+    list-style: none;
+  } 
+  p,span{
+    margin: 0;
+  }
+
+
+  img{
+    width:100%;
+  } 
+  a{
+      text-decoration: none;
+  }
+ 
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
+
+    .codelist img,
+    .codelist strong {
+        display: none !important;
+    }
+
+}
+
+/* 屏幕 */
+.top-jumbotron {
+    margin: 0;
+    padding: 0;
+}
+
+.my-logo a{
+    display: block;
+    min-width: 100px;
+    max-width: 190px;
+    height: 80px;
+    background: url(../img/web/style-logo.png) no-repeat;/*图标*/
+}
+
+/* 顶部导航栏 */
+.my-nav {
+    background-color: #f01414;
+    border: 0;
+    border-radius: 0;
+}
+
+
+
+.my-nav a {
+    font-size: 17px;
+    color: #ffffff !important;
+}
+
+
+/*顶部菜单栏适应屏幕缩小后的改变*/
+.my-nav .navbar-toggle {
+    background-color: rgba(36, 124, 51, 0);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.my-nav .navbar-toggle:hover {
+    background-color: rgba(36, 124, 51, 0.4);
+}
+
+/* 主要内容*/
+.my-container {
+    color: #333333;
+}
+
+/* 底部模块 */
+.footer-jumbotron {
+    margin: 0;
+    padding: 30px 0;
+}
+
+.footer-jumbotron a {
+    color: #888;
+}
+
+.copyright p,
+.copyright ul {
+    font-size: 12px;
+    line-height: 25px;
+    color: #888;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright ul li {
+    list-style: none;
+    display: inline;
+}
+/* 固定导航栏*/
+.fixednav {
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    background-color: #fff;
+}
+
+.fixednav ul {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.274);
+}
+
+.fixednav li {
+    width: 55px;
+    height: 55px;
+    /* border: 1px solid #E0E0E0; */
+    /*display: block;*/
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: #1c1f21;
+    cursor:pointer;
+}
+
+.fixednav li+li{
+    border-top: 1px solid rgba(217, 221, 225, 0.726);
+}
+
+.fixednav a {
+  text-decoration: none;
+}
+
+.fixednav i {
+    /* color: #e23a3a; */
+    /* color: rgba(217, 221, 225, 0.726);  */
+    color:  rgba(250, 2, 2, 0.596);
+    padding-top: 5px;
+    display: block;
+    font-size: 30px;
+}
+
+.fixednav li>a>span {
+    display: none;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    line-height: 15px;
+    padding: 8px;
+}
+
+.fixednav li>div{
+  position: absolute;
+  right: 55px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+}
+
+.fixednav li>div>p{
+    line-height: 18px;
+    color: #333333;
+}
+.fixednav li>div img{
+  width: 130px;
+}
+.fixednav .QQ{
+  top: 0;
+}
+.fixednav .weixin{
+  top: 55px;
+}
+.fixednav .phone{
+    top: 110px;
+    width: 200px;
+    padding: 10px 15px;
+    text-align: left;
+}
+.fixednav .phone span{
+    font-weight: 600;
+}
+.fixednav li:hover {
+    border: 0;
+    color: #fff;
+    background-color: #f01414;
+}
+
+.fixednav li:hover i,
+.fixednav li>div,
+.fixednav li>a>span{
+    display: none;
+}
+
+.fixednav li:hover>a>span,
+.fixednav li:hover>div{
+    display: block;
+}

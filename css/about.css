@@ -1,0 +1,126 @@
+body{
+    background-color: #eee;
+}
+/* 左边导航栏 */
+#aboutTab{
+    background-color: #fff;
+    padding: 0;
+    text-align: left;
+}
+#aboutTab li{
+    width: 100%;
+    border-left: 3px solid #fff;
+}
+#aboutTab li:first-child{
+    border-left: 3px solid #f20d0d;
+}
+#aboutTab li:first-child a{
+    color:#f20d0d;
+}
+#aboutTab li+li a{
+    border-top: 1px solid #edf1f2;
+}
+#aboutTab a{
+    margin: 0 auto;
+    width: 85%;
+    display: block;
+    font-size: 14px;
+    color: #787d82;
+    height: 55px;
+    line-height: 55px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+/* 右边内容显示 */
+.about-main{
+    background: #fff;
+    padding: 10px 40px 50px;
+
+}
+.about-main h1{
+    font-size: 16px;
+    line-height: 16px;
+    color: #363d40;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+
+}
+.about-main hr{
+    margin: 10px  0;
+}
+/* 关于我们  */
+.us-list {
+    padding: 10px 15px;
+}
+.us-list dt {
+    color: #303538;
+    font-size: 14px;
+    /*padding-left: 25px;
+     background: url(../img/web/about-we.png) no-repeat;
+    background-size: 20px 20px; */
+}
+.us-list dd {
+    padding-left: 27px;
+    margin-bottom: 28px;
+    font-size: 12px;
+    color: #60686b;
+}
+.us-list .weixin{
+    width: 100px;
+}
+/* 网站介绍 */
+#about-two p{
+    line-height: 30px;
+
+}
+#about-two .web{
+    width: 80%;
+}
+/* 免责声明 */
+#about-three h4{
+    font-size: 15px;
+    /* font-weight: 600; */
+    margin: 10px 0 5px 0;
+
+}
+#about-three i{
+    margin-right: 5px;
+}
+#about-three p+h4{
+   margin-top: 30px;
+}
+#about-three ul {
+   padding: 0;
+   padding-left: 15px;
+   list-style-type:disc;
+}
+#about-three li{
+    list-style-type:disc;
+ }
+/* 人才招聘 */
+#about-four .recruit-head{
+    text-indent:2em;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#recruitTabContent{
+    padding: 10px 15px;
+} 
+#recruitTabContent .job-block{
+    margin-bottom: 40px;
+}
+#recruitTabContent .job-block h4{
+    font-weight: 550;
+}
+/* 联系我们 */
+#about-six img{
+    display: block;
+    width: 100px;
+}
+#about-six i{
+    margin-right: 10px;
+}
+#about-six p{
+    font-weight: 550;
+    line-height: 50px;
+}
